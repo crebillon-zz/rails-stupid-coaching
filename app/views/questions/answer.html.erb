@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Coach chatbox</h1>
+  <div class="user">
+    <%= @question %>
+    <p>- You</p>
+  </div>
+  <br>
+  <div class="coach">
+    <%= @answer %>
+    <p>- Coach</p>
+  </div>
+  <br>
+  <br>
+  <%= link_to 'Ask a new question', ask_path %>
+</div>
+
